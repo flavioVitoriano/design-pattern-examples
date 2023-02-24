@@ -12,7 +12,7 @@ you want. Example:
 
 ```sh
 # in this case, i want to execute the builder example
-python src/builder.py
+python src/creational/builder.py
 ```
 
 Note that all the examples are using python 3.10.
