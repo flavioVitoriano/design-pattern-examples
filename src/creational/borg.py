@@ -21,3 +21,4 @@ if __name__ == "__main__":
     config_a.set_attr("global_path", "somepath")
 
     assert config_b.get_attr("global_path") == "somepath"
+    assert config_a is not config_b
