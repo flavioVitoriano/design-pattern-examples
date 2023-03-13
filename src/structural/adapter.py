@@ -52,7 +52,7 @@ if __name__ == "__main__":
     prediction_adapter = ExternalPredictionServiceAdapter(external_prediction_service)
 
     intents = prediction_adapter.predict_phrases(
-        ["hello from above", "is this the real life?", "or it is just fantasy?"]
+        ["hello from above", "is this the real life?", "or is it just fantasy?"]
     )
 
     assert len(intents) == 3
