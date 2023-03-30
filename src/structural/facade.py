@@ -50,4 +50,3 @@ class Facade:
         api.expose_endpoints()
         server.start_server()
 
-
